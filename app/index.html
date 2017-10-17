@@ -32,17 +32,23 @@
         </span>
       </header>
       
-      <main class="app__layout-content">
+      <main class="app__layout-content" >
         <video autoplay></video>
         
         <!-- Dialog  -->
         <div class="app__dialog app__dialog--hide">
-          <div class="app__dialog-content">
-            <h5>QR Code</h5>
+          <div class="app__dialog-content" style="text-align: center;">
+            <h5>Item Details</h5><br/>
+            <img class="item_img" src="/images/lap.png"/>
             <input type="text" id="result">
-          </div>
-          <div class="app__dialog-actions">
-            <button type="button" class="app__dialog-open">Open</button>
+            <input type="text" value="Serial No.: 802288199332">
+            <input type="text" value="Item: Laptop ASUS X550L">
+            <input type="text" value="Book Value: 200,000 LKR">
+            <input type="text" value="Start Date: 2013/05/05">
+            <input type="text" value="Depreciation: 20%">
+            <input type="text" value="Current Value: 40,000 LKR">
+            <input type="text" value="Over Date: 2018/05/04">
+            <button type="button" class="app__dialog-open">More</button>
             <button type="button" class="app__dialog-close">Close</button>
           </div>
         </div>
